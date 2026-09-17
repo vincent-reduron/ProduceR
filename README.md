@@ -4,7 +4,7 @@
 
 <!-- badges: end -->
 
-<img src="man/figures/logo.png" align="right" height="138.5"/>
+<img src="man/figures/logo_produceR.png" align="right" height="138.5"/>
 
 ProduceR : Concise and Efficient Tools for Everyday Statistical Production
 
