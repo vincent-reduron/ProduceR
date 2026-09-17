@@ -22,6 +22,8 @@ The following functions are included in the package :
 
 -   'miss()' checks missing values.
 
+-   'sums()' computes sums of all numeric columns.*
+  
 -   'tac()' computes contingency table of all columns.
 
 -   'toc()' compares two tables, spotting significant deviations.
@@ -47,6 +49,9 @@ dup(ggplot2::txhousing, c("city", "year", "month")) # city, year and month do de
 
 # checking missing values
 miss(ggplot2::txhousing) # many NA values on all columns except unique keys
+
+# sum of all numeric columns
+stat <- sums(ggplot2::txhousing)
 
 # contengency tables
 stat <- tac(ggplot2::txhousing)
